@@ -1,0 +1,169 @@
+/*---------------HTML & BODY---------------*/
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+
+/*---------------HEADER---------------*/
+
+header {
+  background-color: #197ceead;
+  padding: 10px;
+  max-height: 100%;
+}
+
+.direcionamento {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: auto;
+}
+
+#titulo {
+  font-size: 60px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+#instrucao {
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin: 0;
+  width: auto;
+  padding: 5px;
+}
+
+div #subtitulo {
+  text-align: center;
+  font-size: 22px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular';
+  color: #a3b18a;
+  margin: 0;
+  border-radius: 20px;
+}
+
+/*---------------MAIN---------------*/
+
+main {
+  display: flex;
+  flex: 1;
+  position: relative;
+  padding: 20px;
+}
+
+.principal {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 200px;
+}
+
+#logos {
+  display: flex;
+  position: absolute;
+  justify-content: right;
+  bottom: 10px;
+}
+
+#logos img {
+  height: 13%;
+  width: 13%;
+}
+
+/*BOTÃO*/
+
+#botao {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#buttonpage{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  height: 100%; 
+  font-size: 30px;
+  margin: 5px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+  color: #000000;
+  background-color: azure;
+  border: 2px solid #000000;
+  border-radius: 10px;
+  position: relative;
+  transition: all .35s;
+  overflow: hidden;
+}
+  
+#buttonpage span {
+  position: relative;
+  z-index: 2;
+
+}
+  
+#buttonpage:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background: #197ceead;
+  transition: all .70s;
+}
+  
+#buttonpage:hover {
+  color: #ffffff;
+}
+  
+#buttonpage:hover::after {
+  width: 100%;
+  height: 100%;
+}
+
+/*---------------FOOTER---------------*/
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #014f86;
+  padding: 20px;
+}
+
+.rodape div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  gap: 2px;
+}
+
+.rodape a {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.rodape p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
