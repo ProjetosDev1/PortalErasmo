@@ -1,0 +1,120 @@
+/*----------PÁGINA----------*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #ffcbff;
+    display: flex;
+    flex-direction: column;
+}
+
+/*----------BARRA DE NAVEGAÇÃO----------*/
+
+header {
+    max-height: 102%;
+    max-width: 100%;
+    background-color: #197ceead;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 100%;
+    width: auto;
+}
+
+.barra-nav a {
+    height: 43px;
+    width: 45px;
+    margin-left: 8px;
+}
+
+.barra-nav img {
+    width: 100%;
+    height: 100%;
+}
+
+.barra-nav h1 {
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+
+/*----------CONTEÚDO PRINCIPAL----------*/
+
+main {
+    flex: 1;
+    padding: 20px;
+    max-width: 100%;
+    background-color: #ffffff;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+}
+
+main .principal {
+    background-color: #dee2e6;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.principal h1  {
+    font-size: 50px;
+    text-align: center;
+}
+
+.principal h2 {
+    margin-top: 10%;
+}
+
+.principal img{
+    margin-left: 15px;
+    width: 30%;
+    height: 30%;
+}
+
+.principal p {
+    font-size: large;
+    font-size: 22px;
+}
+
+/*----------RODAPÉ----------*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #014f86;
+    height: 100%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.rodape div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    height: 20px;
+}
+
+.rodape a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.rodape p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
