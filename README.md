@@ -13,5 +13,3 @@ Atenciosamente,
 <div>
 	<br>
 </div>
-
-
