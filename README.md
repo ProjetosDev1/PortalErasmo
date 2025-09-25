@@ -1,4 +1,4 @@
-<img src="images/EN_logo-final.png" alt="EN-logo-final" height="60" width="120">Clinicas Erasmo Neto, Atenção a Saúde LTDA
+<img src="images/N_logo-final.png" alt="EN-logo-final" height="60" width="120">Clinicas Erasmo Neto, Atenção a Saúde LTDA
 
 Neste novo projeto, foi desenvolvido em HTML e CSS uma intranet com algumas atividades do Setor de Tecnologia que são passados aos profissionais locais da Clínica. Onde são apresentadas diversas soluções e métodos de como resolver determinados problemas e imprevistos.
 
@@ -13,3 +13,4 @@ Atenciosamente,
 <div>
 	<br>
 </div>
+
