@@ -88,7 +88,7 @@ section .principal {
     font-size: 22px;
 }
 
-section .grupo{
+section .grupos{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -191,6 +191,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
 
