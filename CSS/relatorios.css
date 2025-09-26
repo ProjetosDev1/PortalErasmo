@@ -88,6 +88,28 @@ section .principal {
     font-size: 22px;
 }
 
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 4%;
+  gap: 20px;
+}
+
+.posts{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-color: #ffffff;
+  height: 300px;
+  width: 500px;
+  border: 3px solid ;
+  border-radius: 15px;
+}
+
 .botao {
   justify-items: center;
   height: auto;
@@ -169,4 +191,5 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
