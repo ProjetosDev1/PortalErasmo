@@ -88,7 +88,7 @@ section .principal {
     font-size: 22px;
 }
 
-.container{
+section .container{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -191,5 +191,6 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
