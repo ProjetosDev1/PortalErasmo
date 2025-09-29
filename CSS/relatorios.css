@@ -70,7 +70,6 @@ section .grupos{
 .botao{
   background: #f8f9fa;
   border-radius: 12px;
-  padding: 20px;
   width: 250px;
   box-shadow: 0 2px 8px #197ceead;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -121,6 +120,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
 
