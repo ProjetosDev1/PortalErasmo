@@ -55,11 +55,10 @@ main {
     background-color: #ffffff;
 }
 
-article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
+.container {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
 }
 
 section .grupos{
@@ -69,7 +68,7 @@ section .grupos{
     justify-content: center;
 }
 
-.posts{
+.botao{
   background: #f8f9fa;
   border-radius: 12px;
   padding: 20px;
@@ -78,9 +77,17 @@ section .grupos{
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
-.botao {
-  justify-items: center;
-  height: auto;
+.botao h3 {
+  margin-bottom: 10px;
+}
+
+.botao ul {
+  list-style: none;
+  padding: 0;
+}
+
+.botao ul li {
+  margin: 5px 0;
 }
 
 
@@ -115,6 +122,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
 
