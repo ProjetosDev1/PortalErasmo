@@ -49,7 +49,6 @@ nav {
 /*----------MAIN----------*/
 
 main {
-    flex: 1;
     padding: 20px;
     max-width: 100%;
     background-color: #ffffff;
@@ -122,6 +121,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
 
