@@ -89,13 +89,10 @@ section .principal {
 }
 
 section .grupos{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 80px;
-  margin-top: 4%;
-  gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    justify-content: center;
 }
 
 .posts{
@@ -115,51 +112,7 @@ section .grupos{
   height: auto;
 }
 
-.buttonpage {
-  display: flex;
-  height: auto;
-  max-width: 100%;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
-  position: relative;
-  padding: 5px;
-  font-size: 18px;
-  font-family: sans-serif;
-  text-decoration: none;
-  color: #000000;
-  background-color: #ffffff;
-  border: 2px solid #000000;
-  border-radius: 10px;
-  letter-spacing: 2px;
-  transition: all .35s;
-}
-  
-.buttonpage span {
-  position: relative;
-  z-index: 2;
-}
-  
-.buttonpage:after {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 100%;
-  background: #197ceead;
-  transition: all .35s;
-  border-radius: 8px;
-}
-  
-.buttonpage:hover {
-  color: #ffffff;
-}
-  
-.buttonpage:hover:after {
-  width: 100%;
-  height: 100%;
-}
+
 
 /*----------FOOTER----------*/
 
@@ -191,6 +144,7 @@ footer {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #ffffff;
 }
+
 
 
 
